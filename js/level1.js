@@ -6,8 +6,8 @@ class level1 extends Phaser.Scene {
 
 	init() {
 		this.playerSpeed = 3;
-		this.topEnemySpeed = 1;
-		this.botEnemySpeed = -1;
+		this.topEnemySpeed = .5;
+		this.botEnemySpeed = -.5;
 		this.numCoins = 0;
 
 		this.topEnemyMaxY = this.sys.game.config.height / 2 - 7;
